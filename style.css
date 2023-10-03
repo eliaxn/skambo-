@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E2CE1A;
+}
+.left{
+    
+    width: 304px;
+    height: 555px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background: #36320A;
+    color: #FFFFFF;
+    border-radius: 10px;
+
+}
+.left > img{
+   
+    width: 155px;
+    height: 90px;
+    margin-top: 55%;
+    margin-right: 14%;
+    font-size: 80px;
+
+
+}
+
+.left > h2{
+    margin-bottom: 2px;
+    margin-top: 0%;
+    font-size: 27px;
+}
+.left > h3{
+    
+    width: 215px;
+    height: 40px;
+    font-size: 21px;
+    margin-left: 15px;
+}
+
+button{
+    width: 232px;
+    height: 70px;
+    border-radius: 27px;
+    margin-top: 80px;
+    border-color:  #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+    
+}
+.left > h5{
+    margin-top: 15px;
+}
+.right{
+   
+    width: 635px;
+    height: 555px;
+    border-radius: 10px;
+    background: #FEFAA1;
+   
+
+}
+
+.card{
+   
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background: #FEFAA1;
+    color: rgb(7, 7, 7);
+
+}
+
+.card > h1{
+    height: 45px;
+    
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.card > h3{
+   
+    margin: px;
+    margin-bottom: 20px;
+}
+
+.textfield{
+    width: 480px;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 24px;
+
+}
+.textfield > input{
+    width: 480px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #E2CE1A;
+    color: rgb(7, 7, 7);
+    box-shadow: 0px 2px 30px rgb(180, 179, 145);
+    padding-left: 40px;
+  
+
+}
+
+input::placeholder{
+
+    position: relative;
+    color: #000000;
+    font-size: 23px;
+    font-weight: 700;
+    top: 5%;
+
+
+}
+
+.textfield > img{
+  
+    position: absolute;
+    padding-left: 15px;
+
+}
+
+.card > button{
+    margin-top: 10px;
+    background: #36320A;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 10px 50px rgb(180, 179, 145);
+}
